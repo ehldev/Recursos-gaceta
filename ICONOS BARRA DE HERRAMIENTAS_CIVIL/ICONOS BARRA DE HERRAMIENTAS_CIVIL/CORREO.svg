@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Grupo_10860" data-name="Grupo 10860" transform="translate(-430 -1333)">
+    <circle id="Elipse_4" data-name="Elipse 4" cx="20" cy="20" r="20" transform="translate(430 1333)" fill="#554822"/>
+    <g id="Grupo_10863" data-name="Grupo 10863" transform="translate(437.97 1344.733)">
+      <path id="Trazado_22698" data-name="Trazado 22698" d="M572.239,264.251l8.36,9.486a2.506,2.506,0,0,0,3.758,0l8.214-9.322a.884.884,0,0,1,.233-.184,2.817,2.817,0,0,0-1.136-.239H573.287a2.829,2.829,0,0,0-1.091.218A.582.582,0,0,1,572.239,264.251Z" transform="translate(-570.448 -263.993)" fill="#fff"/>
+      <path id="Trazado_22699" data-name="Trazado 22699" d="M593.248,265.95a.891.891,0,0,1-.161.271l-8.215,9.322a4.288,4.288,0,0,1-6.434,0l-8.361-9.485c-.016-.02-.029-.041-.044-.061a2.825,2.825,0,0,0-.409,1.463V280.3a2.84,2.84,0,0,0,2.84,2.84h18.381a2.839,2.839,0,0,0,2.839-2.84V267.458A2.827,2.827,0,0,0,593.248,265.95Z" transform="translate(-569.625 -264.619)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

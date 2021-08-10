@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>lector jls</title>
+	<link rel="stylesheet" href="">
+
+</head>
+<body>
+
+	<div id="texto">
+		<h1>43 – El león y la liebre.</h1>  
+		<p>Sorprendió un león a una liebre que dormía tranquilamente. Pero 
+		cuando estaba a punto de devorarla, vio pasar a un ciervo. Dejó 
+		entonces a la liebre por perseguir al ciervo. </p>
+		<p>Despertó la liebre ante los ruidos de la persecución, y no esperando 
+		más, emprendió su huída.</p> 
+		<p>Mientras tanto el león, que no pudo dar alcance al ciervo,  
+		ya cansado, regresó a tomar la liebre y se encontró con que  
+		también había buscado su camino a salvo.</p>  
+		<p>Entonces se dijo el león:</p> 	 
+		<p>-- Bien me lo merezco, pues teniendo ya una presa en mis manos, la 
+		dejé para ir tras la esperanza de obtener una mayor.</p> 
+		<p>Si tienes en tus manos un pequeño 
+		beneficio, cuando busques uno mayor, no 
+		abandones el pequeño que ya tienes, 
+		hasta tanto no tengas realmente en tus 
+		manos el mayor.</p>
+
+		<h1>25 – La zorra y el cuervo gritón.</h1>
+		<p>Un cuervo robó a unos pastores un pedazo de carne  
+		y se retiró a un árbol.</p>
+		<p>Lo vio una zorra, y deseando apoderarse de aquella carne empezó a 
+		halagar al cuervo, elogiando sus elegantes proporciones y su gran 
+		belleza, agregando además que no había encontrado a nadie mejor 
+		dotado que él para ser el rey de las aves, pero que lo afectaba el 
+		hecho de que no tuviera voz.</p>
+		<p>El cuervo, para demostrarle a la zorra que no  
+		le faltaba la voz, soltó la carne para lanzar  
+		con orgullo fuertes gritos.</p>  
+		<p>La zorra, sin perder tiempo, rápidamente cogió la carne y le dijo: 
+		-- Amigo cuervo, si además de vanidad tuvieras entendimiento, nada 
+		más te faltaría realmente para ser el rey de las aves.</p> 
+		<p>Cuando te adulen, es cuando con más 
+		razón debes cuidar de tus bienes.</p> 
+
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+	<script src="https://code.responsivevoice.org/responsivevoice.js?key=fscdDszv"></script>
+
+	<script type="text/javascript">
+		responsiveVoice.setDefaultVoice("Spanish Latin American Male");
+		//alert($("#texto").html());
+		
+		let texto= $("#texto").html();
+
+		console.log(texto)
+
+		//console.log(texto);
+		responsiveVoice.speak(texto.replace(/(\r\n|\n|\r)/gm, ""));
+	</script>
+
+</body>
+</html>
